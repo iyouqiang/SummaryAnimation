@@ -13,6 +13,7 @@
 		B767CCA31D2DFF1B000306D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B767CCA11D2DFF1B000306D0 /* Main.storyboard */; };
 		B767CCA51D2DFF1B000306D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B767CCA41D2DFF1B000306D0 /* Assets.xcassets */; };
 		B767CCA81D2DFF1B000306D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B767CCA61D2DFF1B000306D0 /* LaunchScreen.storyboard */; };
+		B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B767CCA41D2DFF1B000306D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B767CCA71D2DFF1B000306D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B767CCA91D2DFF1B000306D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B767CCAF1D2E07F5000306D0 /* IYQBaseAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQBaseAnimationVC.h; sourceTree = "<group>"; };
+		B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQBaseAnimationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				B767CC9C1D2DFF1B000306D0 /* AppDelegate.m */,
 				B767CC9E1D2DFF1B000306D0 /* ViewController.h */,
 				B767CC9F1D2DFF1B000306D0 /* ViewController.m */,
+				B767CCAF1D2E07F5000306D0 /* IYQBaseAnimationVC.h */,
+				B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */,
 				B767CCA11D2DFF1B000306D0 /* Main.storyboard */,
 				B767CCA41D2DFF1B000306D0 /* Assets.xcassets */,
 				B767CCA61D2DFF1B000306D0 /* LaunchScreen.storyboard */,
@@ -105,6 +110,7 @@
 		B767CC8D1D2DFF1B000306D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IYQ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = gongyouqiang;
 				TargetAttributes = {
@@ -152,6 +158,7 @@
 			files = (
 				B767CCA01D2DFF1B000306D0 /* ViewController.m in Sources */,
 				B767CC9D1D2DFF1B000306D0 /* AppDelegate.m in Sources */,
+				B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */,
 				B767CC9A1D2DFF1B000306D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +308,7 @@
 				B767CCAE1D2DFF1B000306D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
