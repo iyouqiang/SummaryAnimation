@@ -14,6 +14,13 @@
 		B767CCA51D2DFF1B000306D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B767CCA41D2DFF1B000306D0 /* Assets.xcassets */; };
 		B767CCA81D2DFF1B000306D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B767CCA61D2DFF1B000306D0 /* LaunchScreen.storyboard */; };
 		B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */; };
+		B767CCB41D2F40C3000306D0 /* IYQSuspensionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB31D2F40C3000306D0 /* IYQSuspensionVC.m */; };
+		B767CCB81D2F4A4B000306D0 /* IYQSuspensionBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB71D2F4A4B000306D0 /* IYQSuspensionBtnView.m */; };
+		B77E029C1D41BC4F005C3DB3 /* IYQPraiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77E029B1D41BC4F005C3DB3 /* IYQPraiseViewController.m */; };
+		B77E02A01D41C796005C3DB3 /* IYQPraiseBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B77E029F1D41C796005C3DB3 /* IYQPraiseBtn.m */; };
+		B7803F3E1D4216BA0079F02A /* IYQLoadAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F3D1D4216BA0079F02A /* IYQLoadAnimationVC.m */; };
+		B7803F411D4226370079F02A /* IYQLoadViewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F401D4226370079F02A /* IYQLoadViewOne.m */; };
+		B7803F451D4229880079F02A /* IYQTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F441D4229880079F02A /* IYQTransitionVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,20 @@
 		B767CCA91D2DFF1B000306D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B767CCAF1D2E07F5000306D0 /* IYQBaseAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQBaseAnimationVC.h; sourceTree = "<group>"; };
 		B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQBaseAnimationVC.m; sourceTree = "<group>"; };
+		B767CCB21D2F40C3000306D0 /* IYQSuspensionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQSuspensionVC.h; sourceTree = "<group>"; };
+		B767CCB31D2F40C3000306D0 /* IYQSuspensionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSuspensionVC.m; sourceTree = "<group>"; };
+		B767CCB61D2F4A4B000306D0 /* IYQSuspensionBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQSuspensionBtnView.h; sourceTree = "<group>"; };
+		B767CCB71D2F4A4B000306D0 /* IYQSuspensionBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSuspensionBtnView.m; sourceTree = "<group>"; };
+		B77E029A1D41BC4F005C3DB3 /* IYQPraiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQPraiseViewController.h; sourceTree = "<group>"; };
+		B77E029B1D41BC4F005C3DB3 /* IYQPraiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQPraiseViewController.m; sourceTree = "<group>"; };
+		B77E029E1D41C796005C3DB3 /* IYQPraiseBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQPraiseBtn.h; sourceTree = "<group>"; };
+		B77E029F1D41C796005C3DB3 /* IYQPraiseBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQPraiseBtn.m; sourceTree = "<group>"; };
+		B7803F3C1D4216BA0079F02A /* IYQLoadAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQLoadAnimationVC.h; sourceTree = "<group>"; };
+		B7803F3D1D4216BA0079F02A /* IYQLoadAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQLoadAnimationVC.m; sourceTree = "<group>"; };
+		B7803F3F1D4226370079F02A /* IYQLoadViewOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQLoadViewOne.h; sourceTree = "<group>"; };
+		B7803F401D4226370079F02A /* IYQLoadViewOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQLoadViewOne.m; sourceTree = "<group>"; };
+		B7803F431D4229880079F02A /* IYQTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQTransitionVC.h; sourceTree = "<group>"; };
+		B7803F441D4229880079F02A /* IYQTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQTransitionVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +82,15 @@
 		B767CC971D2DFF1B000306D0 /* SummaryAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B7803F421D4229560079F02A /* 过渡动画集 */,
+				B7803F3B1D42168D0079F02A /* 加载动画集 */,
+				B77E029D1D41BC5A005C3DB3 /* 点赞 */,
+				B77E02991D41BC0C005C3DB3 /* 基础动画 */,
+				B767CCB51D2F40D3000306D0 /* 悬浮按钮 */,
 				B767CC9B1D2DFF1B000306D0 /* AppDelegate.h */,
 				B767CC9C1D2DFF1B000306D0 /* AppDelegate.m */,
 				B767CC9E1D2DFF1B000306D0 /* ViewController.h */,
 				B767CC9F1D2DFF1B000306D0 /* ViewController.m */,
-				B767CCAF1D2E07F5000306D0 /* IYQBaseAnimationVC.h */,
-				B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */,
 				B767CCA11D2DFF1B000306D0 /* Main.storyboard */,
 				B767CCA41D2DFF1B000306D0 /* Assets.xcassets */,
 				B767CCA61D2DFF1B000306D0 /* LaunchScreen.storyboard */,
@@ -82,6 +106,57 @@
 				B767CC991D2DFF1B000306D0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B767CCB51D2F40D3000306D0 /* 悬浮按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				B767CCB21D2F40C3000306D0 /* IYQSuspensionVC.h */,
+				B767CCB31D2F40C3000306D0 /* IYQSuspensionVC.m */,
+				B767CCB61D2F4A4B000306D0 /* IYQSuspensionBtnView.h */,
+				B767CCB71D2F4A4B000306D0 /* IYQSuspensionBtnView.m */,
+			);
+			name = "悬浮按钮";
+			sourceTree = "<group>";
+		};
+		B77E02991D41BC0C005C3DB3 /* 基础动画 */ = {
+			isa = PBXGroup;
+			children = (
+				B767CCAF1D2E07F5000306D0 /* IYQBaseAnimationVC.h */,
+				B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */,
+			);
+			name = "基础动画";
+			sourceTree = "<group>";
+		};
+		B77E029D1D41BC5A005C3DB3 /* 点赞 */ = {
+			isa = PBXGroup;
+			children = (
+				B77E029A1D41BC4F005C3DB3 /* IYQPraiseViewController.h */,
+				B77E029B1D41BC4F005C3DB3 /* IYQPraiseViewController.m */,
+				B77E029E1D41C796005C3DB3 /* IYQPraiseBtn.h */,
+				B77E029F1D41C796005C3DB3 /* IYQPraiseBtn.m */,
+			);
+			name = "点赞";
+			sourceTree = "<group>";
+		};
+		B7803F3B1D42168D0079F02A /* 加载动画集 */ = {
+			isa = PBXGroup;
+			children = (
+				B7803F3C1D4216BA0079F02A /* IYQLoadAnimationVC.h */,
+				B7803F3D1D4216BA0079F02A /* IYQLoadAnimationVC.m */,
+				B7803F3F1D4226370079F02A /* IYQLoadViewOne.h */,
+				B7803F401D4226370079F02A /* IYQLoadViewOne.m */,
+			);
+			name = "加载动画集";
+			sourceTree = "<group>";
+		};
+		B7803F421D4229560079F02A /* 过渡动画集 */ = {
+			isa = PBXGroup;
+			children = (
+				B7803F431D4229880079F02A /* IYQTransitionVC.h */,
+				B7803F441D4229880079F02A /* IYQTransitionVC.m */,
+			);
+			name = "过渡动画集";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B767CCB81D2F4A4B000306D0 /* IYQSuspensionBtnView.m in Sources */,
+				B767CCB41D2F40C3000306D0 /* IYQSuspensionVC.m in Sources */,
+				B7803F451D4229880079F02A /* IYQTransitionVC.m in Sources */,
+				B77E029C1D41BC4F005C3DB3 /* IYQPraiseViewController.m in Sources */,
+				B7803F411D4226370079F02A /* IYQLoadViewOne.m in Sources */,
+				B7803F3E1D4216BA0079F02A /* IYQLoadAnimationVC.m in Sources */,
 				B767CCA01D2DFF1B000306D0 /* ViewController.m in Sources */,
+				B77E02A01D41C796005C3DB3 /* IYQPraiseBtn.m in Sources */,
 				B767CC9D1D2DFF1B000306D0 /* AppDelegate.m in Sources */,
 				B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */,
 				B767CC9A1D2DFF1B000306D0 /* main.m in Sources */,
@@ -272,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SummaryAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyouqiang.SummaryAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SummaryAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyouqiang.SummaryAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIScrollView *AnimationScrollerView;
 
 @end
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidLayoutSubviews {
+    
+    self.AnimationScrollerView.contentSize = CGSizeMake(320, 568);
 }
 
 - (void)didReceiveMemoryWarning {

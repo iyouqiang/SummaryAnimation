@@ -1,14 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9EF78C99458660FA02131E2889324645363127AF",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9EF78C99458660FA02131E2889324645363127AF+++A26B095",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "9EF78C99458660FA02131E2889324645363127AF" : 0
+    "9EF78C99458660FA02131E2889324645363127AF+++2D63140" : 0,
+    "9EF78C99458660FA02131E2889324645363127AF+++A26B095" : 0,
+    "9EF78C99458660FA02131E2889324645363127AF+++2B87DC4" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8891C096-9B09-4BB5-99D0-E20D976F3C7E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "9EF78C99458660FA02131E2889324645363127AF" : ""
+    "9EF78C99458660FA02131E2889324645363127AF+++2D63140" : "",
+    "9EF78C99458660FA02131E2889324645363127AF+++A26B095" : "SummaryAnimation\/",
+    "9EF78C99458660FA02131E2889324645363127AF+++2B87DC4" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SummaryAnimation",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,12 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iyouqiang\/SummaryAnimation.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EF78C99458660FA02131E2889324645363127AF"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EF78C99458660FA02131E2889324645363127AF+++2B87DC4"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iyouqiang\/SummaryAnimation.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EF78C99458660FA02131E2889324645363127AF"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EF78C99458660FA02131E2889324645363127AF+++2D63140"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iyouqiang\/SummaryAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EF78C99458660FA02131E2889324645363127AF+++A26B095"
     }
   ]
 }

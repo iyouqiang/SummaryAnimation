@@ -10,4 +10,12 @@
 
 @interface IYQSuspensionBtnView : UIView
 
+/**
+ *  传入按钮数组，显示系列按钮
+ *
+ *  @param btnArray 按钮数组
+ *  @param block    点击后返回第几个
+ */
+- (void)showBtnArray:(NSMutableArray *)btnArray clickIndex:(void(^)(NSInteger index))block;
+
 @end
