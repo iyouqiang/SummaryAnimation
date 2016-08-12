@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73A47F01D55D5C700DDAB31 /* IYQWritingAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A47EF1D55D5C700DDAB31 /* IYQWritingAnimationVC.m */; };
+		B73A47F61D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A47F51D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m */; };
+		B751202E1D5C2A1500D9EA15 /* IYQRadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B751202D1D5C2A1500D9EA15 /* IYQRadarViewController.m */; };
+		B75120371D5D7E5F00D9EA15 /* IYQLauchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120361D5D7E5F00D9EA15 /* IYQLauchTool.m */; };
+		B75120401D5DA6A800D9EA15 /* IYQAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B751203F1D5DA6A800D9EA15 /* IYQAnimationView.m */; };
+		B75120431D5DA6D500D9EA15 /* IYQCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120421D5DA6D500D9EA15 /* IYQCircleLayer.m */; };
+		B75120461D5DA99B00D9EA15 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120451D5DA99B00D9EA15 /* UIColor+Hex.m */; };
+		B75120491D5DB59100D9EA15 /* IYQTriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120481D5DB59100D9EA15 /* IYQTriangleLayer.m */; };
 		B767CC9A1D2DFF1B000306D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC991D2DFF1B000306D0 /* main.m */; };
 		B767CC9D1D2DFF1B000306D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC9C1D2DFF1B000306D0 /* AppDelegate.m */; };
 		B767CCA01D2DFF1B000306D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC9F1D2DFF1B000306D0 /* ViewController.m */; };
@@ -24,6 +32,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B73A47EE1D55D5C700DDAB31 /* IYQWritingAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQWritingAnimationVC.h; sourceTree = "<group>"; };
+		B73A47EF1D55D5C700DDAB31 /* IYQWritingAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQWritingAnimationVC.m; sourceTree = "<group>"; };
+		B73A47F41D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+YQWriteBezier.h"; sourceTree = "<group>"; };
+		B73A47F51D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+YQWriteBezier.m"; sourceTree = "<group>"; };
+		B751202C1D5C2A1500D9EA15 /* IYQRadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQRadarViewController.h; sourceTree = "<group>"; };
+		B751202D1D5C2A1500D9EA15 /* IYQRadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQRadarViewController.m; sourceTree = "<group>"; };
+		B75120351D5D7E5F00D9EA15 /* IYQLauchTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQLauchTool.h; sourceTree = "<group>"; };
+		B75120361D5D7E5F00D9EA15 /* IYQLauchTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQLauchTool.m; sourceTree = "<group>"; };
+		B751203E1D5DA6A800D9EA15 /* IYQAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQAnimationView.h; sourceTree = "<group>"; };
+		B751203F1D5DA6A800D9EA15 /* IYQAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQAnimationView.m; sourceTree = "<group>"; };
+		B75120411D5DA6D500D9EA15 /* IYQCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQCircleLayer.h; sourceTree = "<group>"; };
+		B75120421D5DA6D500D9EA15 /* IYQCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQCircleLayer.m; sourceTree = "<group>"; };
+		B75120441D5DA99B00D9EA15 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		B75120451D5DA99B00D9EA15 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		B75120471D5DB59100D9EA15 /* IYQTriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQTriangleLayer.h; sourceTree = "<group>"; };
+		B75120481D5DB59100D9EA15 /* IYQTriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQTriangleLayer.m; sourceTree = "<group>"; };
 		B767CC951D2DFF1B000306D0 /* SummaryAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummaryAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B767CC991D2DFF1B000306D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B767CC9B1D2DFF1B000306D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +87,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B73A47ED1D55D18E00DDAB31 /* 写文字 */ = {
+			isa = PBXGroup;
+			children = (
+				B73A47EE1D55D5C700DDAB31 /* IYQWritingAnimationVC.h */,
+				B73A47EF1D55D5C700DDAB31 /* IYQWritingAnimationVC.m */,
+				B73A47F41D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.h */,
+				B73A47F51D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m */,
+			);
+			name = "写文字";
+			sourceTree = "<group>";
+		};
+		B751202B1D5C29CF00D9EA15 /* 雷达波纹 */ = {
+			isa = PBXGroup;
+			children = (
+				B751202C1D5C2A1500D9EA15 /* IYQRadarViewController.h */,
+				B751202D1D5C2A1500D9EA15 /* IYQRadarViewController.m */,
+			);
+			name = "雷达波纹";
+			sourceTree = "<group>";
+		};
+		B75120341D5D789E00D9EA15 /* 无代码注入启动动画 */ = {
+			isa = PBXGroup;
+			children = (
+				B751203D1D5DA61800D9EA15 /* LauchLayer */,
+				B751203C1D5DA60C00D9EA15 /* LauchView */,
+				B75120351D5D7E5F00D9EA15 /* IYQLauchTool.h */,
+				B75120361D5D7E5F00D9EA15 /* IYQLauchTool.m */,
+			);
+			name = "无代码注入启动动画";
+			sourceTree = "<group>";
+		};
+		B75120381D5DA21100D9EA15 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B75120441D5DA99B00D9EA15 /* UIColor+Hex.h */,
+				B75120451D5DA99B00D9EA15 /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B751203C1D5DA60C00D9EA15 /* LauchView */ = {
+			isa = PBXGroup;
+			children = (
+				B751203E1D5DA6A800D9EA15 /* IYQAnimationView.h */,
+				B751203F1D5DA6A800D9EA15 /* IYQAnimationView.m */,
+			);
+			name = LauchView;
+			sourceTree = "<group>";
+		};
+		B751203D1D5DA61800D9EA15 /* LauchLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B75120411D5DA6D500D9EA15 /* IYQCircleLayer.h */,
+				B75120421D5DA6D500D9EA15 /* IYQCircleLayer.m */,
+				B75120471D5DB59100D9EA15 /* IYQTriangleLayer.h */,
+				B75120481D5DB59100D9EA15 /* IYQTriangleLayer.m */,
+			);
+			name = LauchLayer;
+			sourceTree = "<group>";
+		};
 		B767CC8C1D2DFF1B000306D0 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +166,10 @@
 		B767CC971D2DFF1B000306D0 /* SummaryAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B75120381D5DA21100D9EA15 /* Category */,
+				B75120341D5D789E00D9EA15 /* 无代码注入启动动画 */,
+				B751202B1D5C29CF00D9EA15 /* 雷达波纹 */,
+				B73A47ED1D55D18E00DDAB31 /* 写文字 */,
 				B7803F421D4229560079F02A /* 过渡动画集 */,
 				B7803F3B1D42168D0079F02A /* 加载动画集 */,
 				B77E029D1D41BC5A005C3DB3 /* 点赞 */,
@@ -231,17 +319,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75120431D5DA6D500D9EA15 /* IYQCircleLayer.m in Sources */,
 				B767CCB81D2F4A4B000306D0 /* IYQSuspensionBtnView.m in Sources */,
+				B751202E1D5C2A1500D9EA15 /* IYQRadarViewController.m in Sources */,
 				B767CCB41D2F40C3000306D0 /* IYQSuspensionVC.m in Sources */,
+				B73A47F61D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m in Sources */,
 				B7803F451D4229880079F02A /* IYQTransitionVC.m in Sources */,
 				B77E029C1D41BC4F005C3DB3 /* IYQPraiseViewController.m in Sources */,
 				B7803F411D4226370079F02A /* IYQLoadViewOne.m in Sources */,
+				B75120371D5D7E5F00D9EA15 /* IYQLauchTool.m in Sources */,
 				B7803F3E1D4216BA0079F02A /* IYQLoadAnimationVC.m in Sources */,
+				B73A47F01D55D5C700DDAB31 /* IYQWritingAnimationVC.m in Sources */,
 				B767CCA01D2DFF1B000306D0 /* ViewController.m in Sources */,
+				B75120401D5DA6A800D9EA15 /* IYQAnimationView.m in Sources */,
+				B75120461D5DA99B00D9EA15 /* UIColor+Hex.m in Sources */,
 				B77E02A01D41C796005C3DB3 /* IYQPraiseBtn.m in Sources */,
 				B767CC9D1D2DFF1B000306D0 /* AppDelegate.m in Sources */,
 				B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */,
 				B767CC9A1D2DFF1B000306D0 /* main.m in Sources */,
+				B75120491D5DB59100D9EA15 /* IYQTriangleLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

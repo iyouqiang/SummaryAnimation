@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MBr-nu-U5d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MBr-nu-U5d">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -26,7 +26,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeh-IM-bJO">
                                                 <rect key="frame" x="21" y="10" width="136" height="30"/>
-                                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.4392156862745098" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="136" id="MVa-Rr-XU6"/>
                                                     <constraint firstAttribute="height" constant="30" id="sBi-8X-aH6"/>
@@ -104,6 +104,9 @@
                                                 <state key="normal" title="雷达波纹效果">
                                                     <color key="titleColor" red="0.96862745100000003" green="0.98431372549999996" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="QZA-CF-2A7" kind="push" id="Ram-lf-Dm3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8G-FP-tQD">
                                                 <rect key="frame" x="21" y="145" width="136" height="30"/>
@@ -112,9 +115,12 @@
                                                     <constraint firstAttribute="width" constant="136" id="4bd-FL-KRx"/>
                                                     <constraint firstAttribute="height" constant="30" id="JHF-65-Vm6"/>
                                                 </constraints>
-                                                <state key="normal" title="CABasicAnimation">
+                                                <state key="normal" title="写字动画">
                                                     <color key="titleColor" red="0.96862745100000003" green="0.98431372549999996" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="HJG-Eh-L00" kind="push" id="ZIB-2H-jtw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qo9-NH-O9z">
                                                 <rect key="frame" x="176" y="145" width="136" height="30"/>
@@ -126,6 +132,9 @@
                                                 <state key="normal" title="CABasicAnimation">
                                                     <color key="titleColor" red="0.96862745100000003" green="0.98431372549999996" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="5Tj-GN-hTB" kind="push" id="kwh-6p-OhG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFD-3g-So9">
                                                 <rect key="frame" x="21" y="190" width="136" height="30"/>
@@ -137,6 +146,9 @@
                                                 <state key="normal" title="CABasicAnimation">
                                                     <color key="titleColor" red="0.96862745100000003" green="0.98431372549999996" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="T3e-D9-kHW" kind="push" id="Lna-Bp-jHF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAg-6A-hob">
                                                 <rect key="frame" x="176" y="190" width="136" height="30"/>
@@ -148,6 +160,9 @@
                                                 <state key="normal" title="CABasicAnimation">
                                                     <color key="titleColor" red="0.96862745100000003" green="0.98431372549999996" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="9xJ-Dp-F5T" kind="push" id="Cu2-E9-HOs"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyb-nr-hzA">
                                                 <rect key="frame" x="21" y="235" width="136" height="30"/>
@@ -300,7 +315,7 @@
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96862745098039216" green="0.98431372549019602" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.84313725490196079" green="0.98431372549019602" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="evO-Ez-wOn" secondAttribute="trailing" constant="8" id="13o-JE-Xus"/>
                                             <constraint firstAttribute="trailing" secondItem="qo9-NH-O9z" secondAttribute="trailing" constant="8" id="2IC-n8-vHn"/>
@@ -410,7 +425,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNI-GE-97I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1195" y="-251"/>
+            <point key="canvasLocation" x="3012" y="-1124"/>
         </scene>
         <!--基础动画-->
         <scene sceneID="EY3-cY-VjF">
@@ -429,7 +444,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHS-T6-obT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="-251"/>
+            <point key="canvasLocation" x="2663" y="-1124"/>
         </scene>
         <!--点赞动画-->
         <scene sceneID="RVQ-3M-UO6">
@@ -448,7 +463,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKu-gV-WXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="378"/>
+            <point key="canvasLocation" x="2663" y="163"/>
         </scene>
         <!--过渡动画-->
         <scene sceneID="fBi-NO-T1n">
@@ -467,7 +482,46 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWi-xh-WXA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1195" y="378"/>
+            <point key="canvasLocation" x="3012" y="163"/>
+        </scene>
+        <!--写字动画-->
+        <scene sceneID="Dsn-YT-8cj">
+            <objects>
+                <viewController storyboardIdentifier="IYQWritingAnimationVC" id="HJG-Eh-L00" customClass="IYQWritingAnimationVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J4o-hk-jCs"/>
+                        <viewControllerLayoutGuide type="bottom" id="sVU-VG-eM9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UGY-0L-xty">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N6r-82-Upf">
+                                <rect key="frame" x="81" y="106" width="159" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAh-M7-rzu">
+                                <rect key="frame" x="102" y="159" width="117" height="30"/>
+                                <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="绘制">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="drawAction:" destination="HJG-Eh-L00" eventType="touchUpInside" id="esM-Hf-WXT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="写字动画" id="OXR-YS-SAA"/>
+                    <connections>
+                        <outlet property="wrightTextField" destination="N6r-82-Upf" id="uN5-y3-NkC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7H5-v6-lvO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2663" y="-479"/>
         </scene>
         <!--悬浮按钮-->
         <scene sceneID="Vr3-rE-8nz">
@@ -486,7 +540,83 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dpt-8G-7L7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="1018"/>
+            <point key="canvasLocation" x="2663" y="1426"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hAL-h4-4Zg">
+            <objects>
+                <viewController id="5Tj-GN-hTB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ulu-tb-szN"/>
+                        <viewControllerLayoutGuide type="bottom" id="bGS-0p-xQn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ri5-R0-8Kf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AAW-vo-oOU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PFb-99-mUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3012" y="-479"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Inf-1w-wRg">
+            <objects>
+                <viewController id="T3e-D9-kHW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7br-xe-qLd"/>
+                        <viewControllerLayoutGuide type="bottom" id="M1P-ac-RGX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FFV-PX-CGB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="btL-5F-ik6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybu-sr-Jr7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2663" y="791"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hui-K6-72S">
+            <objects>
+                <viewController id="9xJ-Dp-F5T" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ew2-2w-iSO"/>
+                        <viewControllerLayoutGuide type="bottom" id="gtr-xx-xAk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VI5-3y-Ozb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aXH-Vc-A3a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQz-Ya-siO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3012" y="791"/>
+        </scene>
+        <!--雷达效果-->
+        <scene sceneID="vJW-R8-jfB">
+            <objects>
+                <viewController storyboardIdentifier="IYQRadarViewController" id="QZA-CF-2A7" customClass="IYQRadarViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sij-uZ-2rH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Iaq-Aw-eyq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E9e-5Q-1Uk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="雷达效果" id="t6V-bT-Umn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OXW-6D-6Aa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3012" y="1426"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="39F-K8-2y8">
