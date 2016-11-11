@@ -21,7 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
     [self.view addSubview:self.btnView];
     
     // 创建其他功能按钮

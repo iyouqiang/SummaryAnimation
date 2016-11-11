@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol AnimatiomViewDelegate <NSObject>
+
+- (void)completeAnimation;
+
+@end
+
 @interface IYQAnimationView : UIView
+
+@property (assign, nonatomic) CGRect parentFrame;
+@property (weak, nonatomic) id<AnimatiomViewDelegate>delegate;
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IYQBaseViewController.h"
 
-@interface IYQRadarViewController : UIViewController
+@interface IYQRadarViewController : IYQBaseViewController
 
 @end

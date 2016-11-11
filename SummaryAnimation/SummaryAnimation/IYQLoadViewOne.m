@@ -89,6 +89,7 @@
         _outerLayer.lineCap = kCALineCapRound;
         _outerLayer.strokeColor = [UIColor orangeColor].CGColor;
         _outerLayer.fillColor = [UIColor clearColor].CGColor;
+        _outerLayer.backgroundColor = [UIColor lightGrayColor].CGColor;
     }
 
     return _outerLayer;
@@ -107,6 +108,5 @@
     
     return _interLayer;
 }
-
 
 @end

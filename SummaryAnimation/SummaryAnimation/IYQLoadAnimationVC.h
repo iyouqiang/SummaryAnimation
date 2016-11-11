@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface IYQLoadAnimationVC : UIViewController
+#import "IYQBaseViewController.h"
+@interface IYQLoadAnimationVC : IYQBaseViewController
 
 @end

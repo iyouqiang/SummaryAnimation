@@ -11,6 +11,7 @@
 @interface IYQTransitionVC ()
 
 @property (nonatomic, strong) UIView *transitonView;
+@property (nonatomic, strong) UIView *transitonSubView;
 
 @end
 
@@ -18,8 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
     [self.view addSubview:self.transitonView];
+    [self.view addSubview:self.transitonSubView];
+
     CGFloat btnwidth  = 60.f;
     CGFloat btnheight = 30.f;
     CGFloat gapwidth  = ([UIScreen mainScreen].bounds.size.width - 4 * btnheight - 40.f)/3.0f;
@@ -63,6 +67,19 @@
 
     return _transitonView;
 }
+
+- (UIView *)transitonSubView
+{
+    if (!_transitonSubView) {
+
+        _transitonSubView = [[UIView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 200.0f)/2.0f, 70.0f, 200.0f, 320)];
+        _transitonSubView.backgroundColor = [UIColor purpleColor];
+        [_transitonSubView setHidden:YES];
+    }
+
+    return _transitonSubView;
+}
+
 
 - (void)clickBtn : (UIButton *)btn{
     switch (btn.tag) {
@@ -111,7 +128,11 @@
  *  逐渐消失
  */
 - (void)fadeAnimation{
-    [self changeView:YES];
+
+    //[self changeView:YES];
+
+    [self testChangeView];
+
     CATransition *anima = [CATransition animation];
     anima.type = kCATransitionFade;//设置动画的类型
     anima.subtype = kCATransitionFromRight; //设置动画的方向
@@ -119,7 +140,7 @@
     //anima.endProgress = 0.8;//设置动画终点
     anima.duration = 1.0f;
 
-    [_transitonView.layer addAnimation:anima forKey:@"fadeAnimation"];
+    [self.view.layer addAnimation:anima forKey:@"fadeAnimation"];
 }
 
 - (void)moveInAnimation{
@@ -250,9 +271,22 @@
 
     NSArray *colors = [NSArray arrayWithObjects:[UIColor cyanColor],[UIColor magentaColor],[UIColor orangeColor],[UIColor purpleColor], [UIColor greenColor], [UIColor blueColor], [UIColor magentaColor], [UIColor brownColor], nil];
     _transitonView.backgroundColor = [colors objectAtIndex:arc4random_uniform(8)];
-
 }
 
+NSInteger count;
+- (void)testChangeView
+{
+    count ++;
+    if (count % 2 == 0) {
+
+        [_transitonView setHidden:YES];
+        [_transitonSubView setHidden:NO];
+    }else {
+
+        [_transitonView setHidden:NO];
+        [_transitonSubView setHidden:YES];
+    }
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

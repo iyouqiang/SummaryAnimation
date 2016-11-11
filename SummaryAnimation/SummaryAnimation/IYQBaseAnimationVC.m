@@ -20,7 +20,6 @@
 
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
     _shakeOBView = [[UIView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 60)/2.f, 300.f, 60.f, 60.f)];
     _shakeOBView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:_shakeOBView];

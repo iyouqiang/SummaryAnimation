@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B710ABC81DD59E0600E22B1D /* IYQCollapseAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B710ABC71DD59E0600E22B1D /* IYQCollapseAnimator.m */; };
+		B710ABCB1DD5AABD00E22B1D /* IYQCollapseSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B710ABCA1DD5AABD00E22B1D /* IYQCollapseSecondVC.m */; };
+		B710ABCF1DD5B8D700E22B1D /* IYQFireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B710ABCE1DD5B8D700E22B1D /* IYQFireworksViewController.m */; };
+		B71558941DD4048C00014DB5 /* IYQMainCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B71558921DD4048C00014DB5 /* IYQMainCollectionCell.m */; };
+		B71558951DD4048C00014DB5 /* IYQMainCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71558931DD4048C00014DB5 /* IYQMainCollectionCell.xib */; };
+		B71558981DD405BC00014DB5 /* IYQMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B71558971DD405BC00014DB5 /* IYQMainView.m */; };
+		B71558AE1DD4111500014DB5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B715589A1DD4111500014DB5 /* 1.jpg */; };
+		B71558AF1DD4111500014DB5 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B715589B1DD4111500014DB5 /* 10.jpg */; };
+		B71558B01DD4111500014DB5 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B715589C1DD4111500014DB5 /* 11.jpg */; };
+		B71558B11DD4111500014DB5 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B715589D1DD4111500014DB5 /* 12.jpg */; };
+		B71558B21DD4111500014DB5 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B715589E1DD4111500014DB5 /* 13.jpg */; };
+		B71558B31DD4111500014DB5 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B715589F1DD4111500014DB5 /* 14.jpg */; };
+		B71558B41DD4111500014DB5 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A01DD4111500014DB5 /* 15.jpg */; };
+		B71558B51DD4111500014DB5 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A11DD4111500014DB5 /* 16.jpg */; };
+		B71558B61DD4111500014DB5 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A21DD4111500014DB5 /* 17.jpg */; };
+		B71558B71DD4111500014DB5 /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A31DD4111500014DB5 /* 18.jpg */; };
+		B71558B81DD4111500014DB5 /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A41DD4111500014DB5 /* 19.jpg */; };
+		B71558B91DD4111500014DB5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A51DD4111500014DB5 /* 2.jpg */; };
+		B71558BA1DD4111500014DB5 /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A61DD4111500014DB5 /* 20.jpg */; };
+		B71558BB1DD4111500014DB5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A71DD4111500014DB5 /* 3.jpg */; };
+		B71558BC1DD4111500014DB5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A81DD4111500014DB5 /* 4.jpg */; };
+		B71558BD1DD4111500014DB5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558A91DD4111500014DB5 /* 5.jpg */; };
+		B71558BE1DD4111500014DB5 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558AA1DD4111500014DB5 /* 6.jpg */; };
+		B71558BF1DD4111500014DB5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558AB1DD4111500014DB5 /* 7.jpg */; };
+		B71558C01DD4111500014DB5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558AC1DD4111500014DB5 /* 8.jpg */; };
+		B71558C11DD4111500014DB5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71558AD1DD4111500014DB5 /* 9.jpg */; };
+		B71558C41DD428C700014DB5 /* IYQMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B71558C31DD428C700014DB5 /* IYQMainModel.m */; };
+		B71558C71DD44B0300014DB5 /* IYQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71558C61DD44B0300014DB5 /* IYQBaseViewController.m */; };
+		B71558CE1DD5650400014DB5 /* IYQFragmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71558CD1DD5650400014DB5 /* IYQFragmentViewController.m */; };
+		B73352051D938E8600321866 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B73352041D938E8600321866 /* Default-568h@2x.png */; };
 		B73A47F01D55D5C700DDAB31 /* IYQWritingAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A47EF1D55D5C700DDAB31 /* IYQWritingAnimationVC.m */; };
 		B73A47F61D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A47F51D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m */; };
 		B751202E1D5C2A1500D9EA15 /* IYQRadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B751202D1D5C2A1500D9EA15 /* IYQRadarViewController.m */; };
@@ -15,12 +45,11 @@
 		B75120431D5DA6D500D9EA15 /* IYQCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120421D5DA6D500D9EA15 /* IYQCircleLayer.m */; };
 		B75120461D5DA99B00D9EA15 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120451D5DA99B00D9EA15 /* UIColor+Hex.m */; };
 		B75120491D5DB59100D9EA15 /* IYQTriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120481D5DB59100D9EA15 /* IYQTriangleLayer.m */; };
+		B76567791D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B76567781D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m */; };
 		B767CC9A1D2DFF1B000306D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC991D2DFF1B000306D0 /* main.m */; };
 		B767CC9D1D2DFF1B000306D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC9C1D2DFF1B000306D0 /* AppDelegate.m */; };
-		B767CCA01D2DFF1B000306D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC9F1D2DFF1B000306D0 /* ViewController.m */; };
-		B767CCA31D2DFF1B000306D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B767CCA11D2DFF1B000306D0 /* Main.storyboard */; };
+		B767CCA01D2DFF1B000306D0 /* IYQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC9F1D2DFF1B000306D0 /* IYQMainViewController.m */; };
 		B767CCA51D2DFF1B000306D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B767CCA41D2DFF1B000306D0 /* Assets.xcassets */; };
-		B767CCA81D2DFF1B000306D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B767CCA61D2DFF1B000306D0 /* LaunchScreen.storyboard */; };
 		B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */; };
 		B767CCB41D2F40C3000306D0 /* IYQSuspensionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB31D2F40C3000306D0 /* IYQSuspensionVC.m */; };
 		B767CCB81D2F4A4B000306D0 /* IYQSuspensionBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB71D2F4A4B000306D0 /* IYQSuspensionBtnView.m */; };
@@ -29,9 +58,50 @@
 		B7803F3E1D4216BA0079F02A /* IYQLoadAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F3D1D4216BA0079F02A /* IYQLoadAnimationVC.m */; };
 		B7803F411D4226370079F02A /* IYQLoadViewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F401D4226370079F02A /* IYQLoadViewOne.m */; };
 		B7803F451D4229880079F02A /* IYQTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F441D4229880079F02A /* IYQTransitionVC.m */; };
+		B7C319A21D62A5DB00EAAB4E /* IYQRectangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C319A11D62A5DB00EAAB4E /* IYQRectangleLayer.m */; };
+		B7C319A51D62ACCE00EAAB4E /* IYQWaterwaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C319A41D62ACCE00EAAB4E /* IYQWaterwaveLayer.m */; };
+		B7C475991D6BE061001EF150 /* IYQSandClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C475981D6BE061001EF150 /* IYQSandClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B710ABC61DD59E0600E22B1D /* IYQCollapseAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQCollapseAnimator.h; sourceTree = "<group>"; };
+		B710ABC71DD59E0600E22B1D /* IYQCollapseAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQCollapseAnimator.m; sourceTree = "<group>"; };
+		B710ABC91DD5AABD00E22B1D /* IYQCollapseSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQCollapseSecondVC.h; sourceTree = "<group>"; };
+		B710ABCA1DD5AABD00E22B1D /* IYQCollapseSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQCollapseSecondVC.m; sourceTree = "<group>"; };
+		B710ABCD1DD5B8D700E22B1D /* IYQFireworksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQFireworksViewController.h; sourceTree = "<group>"; };
+		B710ABCE1DD5B8D700E22B1D /* IYQFireworksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQFireworksViewController.m; sourceTree = "<group>"; };
+		B71558911DD4048C00014DB5 /* IYQMainCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQMainCollectionCell.h; sourceTree = "<group>"; };
+		B71558921DD4048C00014DB5 /* IYQMainCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQMainCollectionCell.m; sourceTree = "<group>"; };
+		B71558931DD4048C00014DB5 /* IYQMainCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IYQMainCollectionCell.xib; sourceTree = "<group>"; };
+		B71558961DD405BC00014DB5 /* IYQMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQMainView.h; sourceTree = "<group>"; };
+		B71558971DD405BC00014DB5 /* IYQMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQMainView.m; sourceTree = "<group>"; };
+		B715589A1DD4111500014DB5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		B715589B1DD4111500014DB5 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		B715589C1DD4111500014DB5 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		B715589D1DD4111500014DB5 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		B715589E1DD4111500014DB5 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		B715589F1DD4111500014DB5 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		B71558A01DD4111500014DB5 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		B71558A11DD4111500014DB5 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		B71558A21DD4111500014DB5 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		B71558A31DD4111500014DB5 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		B71558A41DD4111500014DB5 /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		B71558A51DD4111500014DB5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		B71558A61DD4111500014DB5 /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		B71558A71DD4111500014DB5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		B71558A81DD4111500014DB5 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		B71558A91DD4111500014DB5 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		B71558AA1DD4111500014DB5 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		B71558AB1DD4111500014DB5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		B71558AC1DD4111500014DB5 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		B71558AD1DD4111500014DB5 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		B71558C21DD428C700014DB5 /* IYQMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQMainModel.h; sourceTree = "<group>"; };
+		B71558C31DD428C700014DB5 /* IYQMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQMainModel.m; sourceTree = "<group>"; };
+		B71558C51DD44B0300014DB5 /* IYQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQBaseViewController.h; sourceTree = "<group>"; };
+		B71558C61DD44B0300014DB5 /* IYQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQBaseViewController.m; sourceTree = "<group>"; };
+		B71558CC1DD5650400014DB5 /* IYQFragmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQFragmentViewController.h; sourceTree = "<group>"; };
+		B71558CD1DD5650400014DB5 /* IYQFragmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQFragmentViewController.m; sourceTree = "<group>"; };
+		B73352041D938E8600321866 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B73A47EE1D55D5C700DDAB31 /* IYQWritingAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQWritingAnimationVC.h; sourceTree = "<group>"; };
 		B73A47EF1D55D5C700DDAB31 /* IYQWritingAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQWritingAnimationVC.m; sourceTree = "<group>"; };
 		B73A47F41D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+YQWriteBezier.h"; sourceTree = "<group>"; };
@@ -48,15 +118,15 @@
 		B75120451D5DA99B00D9EA15 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		B75120471D5DB59100D9EA15 /* IYQTriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQTriangleLayer.h; sourceTree = "<group>"; };
 		B75120481D5DB59100D9EA15 /* IYQTriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQTriangleLayer.m; sourceTree = "<group>"; };
+		B76567771D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQFotoMosaikEddaVC.h; sourceTree = "<group>"; };
+		B76567781D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQFotoMosaikEddaVC.m; sourceTree = "<group>"; };
 		B767CC951D2DFF1B000306D0 /* SummaryAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummaryAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B767CC991D2DFF1B000306D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B767CC9B1D2DFF1B000306D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B767CC9C1D2DFF1B000306D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B767CC9E1D2DFF1B000306D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B767CC9F1D2DFF1B000306D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B767CCA21D2DFF1B000306D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B767CC9E1D2DFF1B000306D0 /* IYQMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IYQMainViewController.h; sourceTree = "<group>"; };
+		B767CC9F1D2DFF1B000306D0 /* IYQMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IYQMainViewController.m; sourceTree = "<group>"; };
 		B767CCA41D2DFF1B000306D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B767CCA71D2DFF1B000306D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B767CCA91D2DFF1B000306D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B767CCAF1D2E07F5000306D0 /* IYQBaseAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQBaseAnimationVC.h; sourceTree = "<group>"; };
 		B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQBaseAnimationVC.m; sourceTree = "<group>"; };
@@ -74,6 +144,12 @@
 		B7803F401D4226370079F02A /* IYQLoadViewOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQLoadViewOne.m; sourceTree = "<group>"; };
 		B7803F431D4229880079F02A /* IYQTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQTransitionVC.h; sourceTree = "<group>"; };
 		B7803F441D4229880079F02A /* IYQTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQTransitionVC.m; sourceTree = "<group>"; };
+		B7C319A01D62A5DB00EAAB4E /* IYQRectangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQRectangleLayer.h; sourceTree = "<group>"; };
+		B7C319A11D62A5DB00EAAB4E /* IYQRectangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQRectangleLayer.m; sourceTree = "<group>"; };
+		B7C319A31D62ACCE00EAAB4E /* IYQWaterwaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQWaterwaveLayer.h; sourceTree = "<group>"; };
+		B7C319A41D62ACCE00EAAB4E /* IYQWaterwaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQWaterwaveLayer.m; sourceTree = "<group>"; };
+		B7C475971D6BE061001EF150 /* IYQSandClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQSandClockView.h; sourceTree = "<group>"; };
+		B7C475981D6BE061001EF150 /* IYQSandClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSandClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +163,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B710ABCC1DD5B8BA00E22B1D /* 烟花 */ = {
+			isa = PBXGroup;
+			children = (
+				B710ABCD1DD5B8D700E22B1D /* IYQFireworksViewController.h */,
+				B710ABCE1DD5B8D700E22B1D /* IYQFireworksViewController.m */,
+			);
+			name = "烟花";
+			sourceTree = "<group>";
+		};
+		B71558991DD4111500014DB5 /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				B715589A1DD4111500014DB5 /* 1.jpg */,
+				B715589B1DD4111500014DB5 /* 10.jpg */,
+				B715589C1DD4111500014DB5 /* 11.jpg */,
+				B715589D1DD4111500014DB5 /* 12.jpg */,
+				B715589E1DD4111500014DB5 /* 13.jpg */,
+				B715589F1DD4111500014DB5 /* 14.jpg */,
+				B71558A01DD4111500014DB5 /* 15.jpg */,
+				B71558A11DD4111500014DB5 /* 16.jpg */,
+				B71558A21DD4111500014DB5 /* 17.jpg */,
+				B71558A31DD4111500014DB5 /* 18.jpg */,
+				B71558A41DD4111500014DB5 /* 19.jpg */,
+				B71558A51DD4111500014DB5 /* 2.jpg */,
+				B71558A61DD4111500014DB5 /* 20.jpg */,
+				B71558A71DD4111500014DB5 /* 3.jpg */,
+				B71558A81DD4111500014DB5 /* 4.jpg */,
+				B71558A91DD4111500014DB5 /* 5.jpg */,
+				B71558AA1DD4111500014DB5 /* 6.jpg */,
+				B71558AB1DD4111500014DB5 /* 7.jpg */,
+				B71558AC1DD4111500014DB5 /* 8.jpg */,
+				B71558AD1DD4111500014DB5 /* 9.jpg */,
+			);
+			path = photos;
+			sourceTree = "<group>";
+		};
+		B71558CB1DD564C300014DB5 /* 碎片过渡 */ = {
+			isa = PBXGroup;
+			children = (
+				B71558CC1DD5650400014DB5 /* IYQFragmentViewController.h */,
+				B71558CD1DD5650400014DB5 /* IYQFragmentViewController.m */,
+				B710ABC61DD59E0600E22B1D /* IYQCollapseAnimator.h */,
+				B710ABC71DD59E0600E22B1D /* IYQCollapseAnimator.m */,
+				B710ABC91DD5AABD00E22B1D /* IYQCollapseSecondVC.h */,
+				B710ABCA1DD5AABD00E22B1D /* IYQCollapseSecondVC.m */,
+			);
+			name = "碎片过渡";
+			sourceTree = "<group>";
+		};
 		B73A47ED1D55D18E00DDAB31 /* 写文字 */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,13 +268,27 @@
 				B75120421D5DA6D500D9EA15 /* IYQCircleLayer.m */,
 				B75120471D5DB59100D9EA15 /* IYQTriangleLayer.h */,
 				B75120481D5DB59100D9EA15 /* IYQTriangleLayer.m */,
+				B7C319A01D62A5DB00EAAB4E /* IYQRectangleLayer.h */,
+				B7C319A11D62A5DB00EAAB4E /* IYQRectangleLayer.m */,
+				B7C319A31D62ACCE00EAAB4E /* IYQWaterwaveLayer.h */,
+				B7C319A41D62ACCE00EAAB4E /* IYQWaterwaveLayer.m */,
 			);
 			name = LauchLayer;
+			sourceTree = "<group>";
+		};
+		B76567761D640F1500CDC2EA /* 图片拼接 */ = {
+			isa = PBXGroup;
+			children = (
+				B76567771D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.h */,
+				B76567781D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m */,
+			);
+			name = "图片拼接";
 			sourceTree = "<group>";
 		};
 		B767CC8C1D2DFF1B000306D0 = {
 			isa = PBXGroup;
 			children = (
+				B73352041D938E8600321866 /* Default-568h@2x.png */,
 				B767CC971D2DFF1B000306D0 /* SummaryAnimation */,
 				B767CC961D2DFF1B000306D0 /* Products */,
 			);
@@ -166,6 +305,9 @@
 		B767CC971D2DFF1B000306D0 /* SummaryAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B710ABCC1DD5B8BA00E22B1D /* 烟花 */,
+				B71558CB1DD564C300014DB5 /* 碎片过渡 */,
+				B76567761D640F1500CDC2EA /* 图片拼接 */,
 				B75120381D5DA21100D9EA15 /* Category */,
 				B75120341D5D789E00D9EA15 /* 无代码注入启动动画 */,
 				B751202B1D5C29CF00D9EA15 /* 雷达波纹 */,
@@ -177,11 +319,18 @@
 				B767CCB51D2F40D3000306D0 /* 悬浮按钮 */,
 				B767CC9B1D2DFF1B000306D0 /* AppDelegate.h */,
 				B767CC9C1D2DFF1B000306D0 /* AppDelegate.m */,
-				B767CC9E1D2DFF1B000306D0 /* ViewController.h */,
-				B767CC9F1D2DFF1B000306D0 /* ViewController.m */,
-				B767CCA11D2DFF1B000306D0 /* Main.storyboard */,
+				B767CC9E1D2DFF1B000306D0 /* IYQMainViewController.h */,
+				B767CC9F1D2DFF1B000306D0 /* IYQMainViewController.m */,
+				B71558C51DD44B0300014DB5 /* IYQBaseViewController.h */,
+				B71558C61DD44B0300014DB5 /* IYQBaseViewController.m */,
+				B71558911DD4048C00014DB5 /* IYQMainCollectionCell.h */,
+				B71558921DD4048C00014DB5 /* IYQMainCollectionCell.m */,
+				B71558931DD4048C00014DB5 /* IYQMainCollectionCell.xib */,
+				B71558961DD405BC00014DB5 /* IYQMainView.h */,
+				B71558971DD405BC00014DB5 /* IYQMainView.m */,
+				B71558C21DD428C700014DB5 /* IYQMainModel.h */,
+				B71558C31DD428C700014DB5 /* IYQMainModel.m */,
 				B767CCA41D2DFF1B000306D0 /* Assets.xcassets */,
-				B767CCA61D2DFF1B000306D0 /* LaunchScreen.storyboard */,
 				B767CCA91D2DFF1B000306D0 /* Info.plist */,
 				B767CC981D2DFF1B000306D0 /* Supporting Files */,
 			);
@@ -191,6 +340,7 @@
 		B767CC981D2DFF1B000306D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B71558991DD4111500014DB5 /* photos */,
 				B767CC991D2DFF1B000306D0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -234,6 +384,8 @@
 				B7803F3D1D4216BA0079F02A /* IYQLoadAnimationVC.m */,
 				B7803F3F1D4226370079F02A /* IYQLoadViewOne.h */,
 				B7803F401D4226370079F02A /* IYQLoadViewOne.m */,
+				B7C475971D6BE061001EF150 /* IYQSandClockView.h */,
+				B7C475981D6BE061001EF150 /* IYQSandClockView.m */,
 			);
 			name = "加载动画集";
 			sourceTree = "<group>";
@@ -306,9 +458,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B767CCA81D2DFF1B000306D0 /* LaunchScreen.storyboard in Resources */,
+				B71558C01DD4111500014DB5 /* 8.jpg in Resources */,
+				B71558C11DD4111500014DB5 /* 9.jpg in Resources */,
+				B71558B71DD4111500014DB5 /* 18.jpg in Resources */,
+				B71558B31DD4111500014DB5 /* 14.jpg in Resources */,
+				B71558AF1DD4111500014DB5 /* 10.jpg in Resources */,
+				B71558BF1DD4111500014DB5 /* 7.jpg in Resources */,
+				B71558B21DD4111500014DB5 /* 13.jpg in Resources */,
+				B71558951DD4048C00014DB5 /* IYQMainCollectionCell.xib in Resources */,
+				B71558B11DD4111500014DB5 /* 12.jpg in Resources */,
+				B71558BC1DD4111500014DB5 /* 4.jpg in Resources */,
+				B71558BB1DD4111500014DB5 /* 3.jpg in Resources */,
+				B71558B41DD4111500014DB5 /* 15.jpg in Resources */,
+				B71558BA1DD4111500014DB5 /* 20.jpg in Resources */,
+				B71558AE1DD4111500014DB5 /* 1.jpg in Resources */,
+				B71558B51DD4111500014DB5 /* 16.jpg in Resources */,
+				B71558B81DD4111500014DB5 /* 19.jpg in Resources */,
+				B71558B01DD4111500014DB5 /* 11.jpg in Resources */,
+				B71558BE1DD4111500014DB5 /* 6.jpg in Resources */,
+				B71558BD1DD4111500014DB5 /* 5.jpg in Resources */,
+				B71558B61DD4111500014DB5 /* 17.jpg in Resources */,
+				B71558B91DD4111500014DB5 /* 2.jpg in Resources */,
+				B73352051D938E8600321866 /* Default-568h@2x.png in Resources */,
 				B767CCA51D2DFF1B000306D0 /* Assets.xcassets in Resources */,
-				B767CCA31D2DFF1B000306D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,44 +495,37 @@
 				B767CCB81D2F4A4B000306D0 /* IYQSuspensionBtnView.m in Sources */,
 				B751202E1D5C2A1500D9EA15 /* IYQRadarViewController.m in Sources */,
 				B767CCB41D2F40C3000306D0 /* IYQSuspensionVC.m in Sources */,
+				B71558C41DD428C700014DB5 /* IYQMainModel.m in Sources */,
 				B73A47F61D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m in Sources */,
 				B7803F451D4229880079F02A /* IYQTransitionVC.m in Sources */,
+				B710ABCF1DD5B8D700E22B1D /* IYQFireworksViewController.m in Sources */,
 				B77E029C1D41BC4F005C3DB3 /* IYQPraiseViewController.m in Sources */,
+				B71558CE1DD5650400014DB5 /* IYQFragmentViewController.m in Sources */,
 				B7803F411D4226370079F02A /* IYQLoadViewOne.m in Sources */,
 				B75120371D5D7E5F00D9EA15 /* IYQLauchTool.m in Sources */,
 				B7803F3E1D4216BA0079F02A /* IYQLoadAnimationVC.m in Sources */,
 				B73A47F01D55D5C700DDAB31 /* IYQWritingAnimationVC.m in Sources */,
-				B767CCA01D2DFF1B000306D0 /* ViewController.m in Sources */,
+				B7C319A51D62ACCE00EAAB4E /* IYQWaterwaveLayer.m in Sources */,
+				B710ABC81DD59E0600E22B1D /* IYQCollapseAnimator.m in Sources */,
+				B71558981DD405BC00014DB5 /* IYQMainView.m in Sources */,
+				B767CCA01D2DFF1B000306D0 /* IYQMainViewController.m in Sources */,
 				B75120401D5DA6A800D9EA15 /* IYQAnimationView.m in Sources */,
+				B71558941DD4048C00014DB5 /* IYQMainCollectionCell.m in Sources */,
 				B75120461D5DA99B00D9EA15 /* UIColor+Hex.m in Sources */,
 				B77E02A01D41C796005C3DB3 /* IYQPraiseBtn.m in Sources */,
+				B710ABCB1DD5AABD00E22B1D /* IYQCollapseSecondVC.m in Sources */,
+				B76567791D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m in Sources */,
+				B71558C71DD44B0300014DB5 /* IYQBaseViewController.m in Sources */,
+				B7C475991D6BE061001EF150 /* IYQSandClockView.m in Sources */,
 				B767CC9D1D2DFF1B000306D0 /* AppDelegate.m in Sources */,
 				B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */,
+				B7C319A21D62A5DB00EAAB4E /* IYQRectangleLayer.m in Sources */,
 				B767CC9A1D2DFF1B000306D0 /* main.m in Sources */,
 				B75120491D5DB59100D9EA15 /* IYQTriangleLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B767CCA11D2DFF1B000306D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B767CCA21D2DFF1B000306D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B767CCA61D2DFF1B000306D0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B767CCA71D2DFF1B000306D0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B767CCAA1D2DFF1B000306D0 /* Debug */ = {
@@ -450,7 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SummaryAnimation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyouqiang.SummaryAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SummaryAnimation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyouqiang.SummaryAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";

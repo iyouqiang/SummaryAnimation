@@ -9,11 +9,15 @@
 #import "IYQWritingAnimationVC.h"
 #import "UIBezierPath+YQWriteBezier.h"
 
+#define SCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
+#define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
+
 @interface IYQWritingAnimationVC ()<UITextFieldDelegate>
 
-@property (weak, nonatomic) IBOutlet UITextField *wrightTextField;
+@property (nonatomic, strong) UITextField *wrightTextField;
 @property (nonatomic, strong) CAShapeLayer        *shapeLayer;
 @property (nonatomic, strong) NSMutableDictionary *attrs;
+@property (nonatomic, strong) UIButton            *doneButton;
 
 - (IBAction)drawAction:(id)sender;
 
@@ -29,9 +33,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.wrightTextField.text = @"Welcome to the world of animation";
     self.wrightTextField.delegate = self;
+    [self.view addSubview:self.wrightTextField];
+
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 100.0, 100.0);
+    btn.center = self.view.center;
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [btn setTitle:@"绘制" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(drawAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+
     [self.view.layer addSublayer:self.shapeLayer];
+}
+
+- (UITextField *)wrightTextField
+{
+    if (!_wrightTextField) {
+
+        _wrightTextField = [[UITextField alloc] initWithFrame:CGRectMake(CGRectGetWidth(self.view.frame)/2.0 - 100.0, 100.0f, 200.0f, 40.0)];
+        _wrightTextField.text = @"Welcome Animation";
+        _wrightTextField.keyboardType           = UIKeyboardTypeNumberPad;
+        _wrightTextField.spellCheckingType      = UITextSpellCheckingTypeNo;
+        _wrightTextField.autocorrectionType     = UITextAutocorrectionTypeNo;
+        _wrightTextField.textAlignment          = NSTextAlignmentCenter;
+        _wrightTextField.autocapitalizationType = UITextAutocapitalizationTypeAllCharacters;
+        _wrightTextField.borderStyle = UITextBorderStyleRoundedRect;
+    }
+
+    return _wrightTextField;
 }
 
 - (CAShapeLayer *)shapeLayer
@@ -75,7 +105,7 @@
 }
 */
 
-- (IBAction)drawAction:(id)sender {
+- (void)drawAction:(id)sender {
 
     [_wrightTextField resignFirstResponder];
 
@@ -94,11 +124,4 @@
     }
 }
 
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
-    [textField resignFirstResponder];
-
-    return YES;
-}
 @end

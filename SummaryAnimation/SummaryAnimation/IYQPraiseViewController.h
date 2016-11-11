@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface IYQPraiseViewController : UIViewController
+#import "IYQBaseViewController.h"
+@interface IYQPraiseViewController : IYQBaseViewController
 
 @end

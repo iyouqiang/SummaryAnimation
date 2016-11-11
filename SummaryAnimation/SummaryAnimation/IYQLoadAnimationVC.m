@@ -8,7 +8,7 @@
 
 #import "IYQLoadAnimationVC.h"
 #import "IYQLoadViewOne.h"
-
+#import "IYQSandClockView.h"
 @interface IYQLoadAnimationVC ()
 
 
@@ -19,14 +19,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self loadingCircle];
 
-    [self loadingView1];
+    [self loadingsandClockView];
 }
 
-- (void)loadingView1
+- (void)loadingCircle
 {
-    IYQLoadViewOne *oneView = [[IYQLoadViewOne alloc] initWithFrame:CGRectMake(10.0f, 64.f, 50.0f, 50.0f)];
+    IYQLoadViewOne *oneView = [[IYQLoadViewOne alloc] initWithFrame:CGRectMake(10.0f, 64.0-25.f, 50.0f, 50.0f)];
     [self.view addSubview:oneView];
+}
+
+- (void)loadingsandClockView
+{
+    IYQSandClockView *sandClockView = [[IYQSandClockView alloc] initWithFrame:CGRectMake(100.0f, 80.0f, 43.0f, 43.0f)];
+    [sandClockView showAnimation];
+    [self.view addSubview:sandClockView];
 }
 
 

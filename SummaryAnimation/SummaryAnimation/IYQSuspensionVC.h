@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface IYQSuspensionVC : UIViewController
+#import "IYQBaseViewController.h"
+@interface IYQSuspensionVC : IYQBaseViewController
 
 @end

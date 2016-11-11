@@ -12,7 +12,7 @@
 // 16进制颜色转换
 #define HexColor(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
-@interface IYQLauchTool ()
+@interface IYQLauchTool ()<AnimatiomViewDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
 
@@ -76,7 +76,7 @@
 
     window.hidden = NO;
 
-    window.backgroundColor = [UIColor whiteColor];
+    window.backgroundColor = [UIColor colorWithRed:221 green:250 blue:242 alpha:1.0f];
     /*
     window.alpha = 0.0;
 
@@ -92,12 +92,31 @@
 {
     CGFloat size = 100.0;
     IYQAnimationView *lauchAnimation = [[IYQAnimationView alloc] initWithFrame:CGRectMake(CGRectGetWidth(window.frame)/2 - size/2, CGRectGetHeight(window.frame)/2 - size/2, size, size)];
-    lauchAnimation.backgroundColor = [UIColor grayColor];
+    lauchAnimation.delegate = self;
+    lauchAnimation.parentFrame = window.bounds;
     [window addSubview:lauchAnimation];
+}
 
-    ///给非UIControl的子类，增加点击事件
-    UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hide)];
-    [lauchAnimation addGestureRecognizer:tap];
+- (void)completeAnimation
+{
+    UILabel *label = [[UILabel alloc] initWithFrame:self.window.frame];
+    label.textColor = [UIColor whiteColor];
+    label.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:50.0];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.text = @"Welcome";
+    label.transform = CGAffineTransformScale(label.transform, 0.25, 0.25);
+    [self.window addSubview:label];
+
+    [UIView animateWithDuration:0.4 delay:0.0 usingSpringWithDamping:0.7 initialSpringVelocity:0.1 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+
+        label.transform = CGAffineTransformScale(label.transform, 4.0, 4.0);
+
+    } completion:^(BOOL finished) {
+
+        ///给非UIControl的子类，增加点击事件
+        UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hide)];
+        [self.window addGestureRecognizer:tap];
+    }];
 }
 
 // 隐藏

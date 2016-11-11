@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "IYQMainViewController.h"
+#import "UIColor+Hex.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+
+    IYQMainViewController *mainVC = [[IYQMainViewController alloc] init];
+    UINavigationController *mainVCNav = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    mainVCNav.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor],
+                                                    NSFontAttributeName : [UIFont boldSystemFontOfSize:18]};
+    mainVCNav.navigationBarHidden = YES;
+    mainVCNav.navigationBar.barTintColor = [UIColor colorWithHexString:@"#40e0b0"];
+    mainVCNav.navigationBar.translucent = YES;
+    mainVCNav.navigationBar.tintColor = [UIColor whiteColor];//[UIColor colorWithHexString:@"#da70d6"];
+    _window.rootViewController = mainVCNav;
+
+    [_window makeKeyAndVisible];
     return YES;
 }
 
