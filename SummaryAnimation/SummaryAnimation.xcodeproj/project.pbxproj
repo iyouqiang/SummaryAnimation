@@ -10,6 +10,8 @@
 		B710ABC81DD59E0600E22B1D /* IYQCollapseAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B710ABC71DD59E0600E22B1D /* IYQCollapseAnimator.m */; };
 		B710ABCB1DD5AABD00E22B1D /* IYQCollapseSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B710ABCA1DD5AABD00E22B1D /* IYQCollapseSecondVC.m */; };
 		B710ABCF1DD5B8D700E22B1D /* IYQFireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B710ABCE1DD5B8D700E22B1D /* IYQFireworksViewController.m */; };
+		B71108481DE5825600D110B7 /* IYQMaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B71108471DE5825600D110B7 /* IYQMaskVC.m */; };
+		B711084C1DE6766700D110B7 /* IYQBezierPathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B711084B1DE6766700D110B7 /* IYQBezierPathVC.m */; };
 		B71558941DD4048C00014DB5 /* IYQMainCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B71558921DD4048C00014DB5 /* IYQMainCollectionCell.m */; };
 		B71558951DD4048C00014DB5 /* IYQMainCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71558931DD4048C00014DB5 /* IYQMainCollectionCell.xib */; };
 		B71558981DD405BC00014DB5 /* IYQMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B71558971DD405BC00014DB5 /* IYQMainView.m */; };
@@ -45,6 +47,7 @@
 		B75120431D5DA6D500D9EA15 /* IYQCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120421D5DA6D500D9EA15 /* IYQCircleLayer.m */; };
 		B75120461D5DA99B00D9EA15 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120451D5DA99B00D9EA15 /* UIColor+Hex.m */; };
 		B75120491D5DB59100D9EA15 /* IYQTriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B75120481D5DB59100D9EA15 /* IYQTriangleLayer.m */; };
+		B75A3E9D1DE8286200B9CD2E /* IYQUIDynamicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A3E9C1DE8286200B9CD2E /* IYQUIDynamicVC.m */; };
 		B76567791D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B76567781D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m */; };
 		B767CC9A1D2DFF1B000306D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC991D2DFF1B000306D0 /* main.m */; };
 		B767CC9D1D2DFF1B000306D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CC9C1D2DFF1B000306D0 /* AppDelegate.m */; };
@@ -53,11 +56,21 @@
 		B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB01D2E07F5000306D0 /* IYQBaseAnimationVC.m */; };
 		B767CCB41D2F40C3000306D0 /* IYQSuspensionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB31D2F40C3000306D0 /* IYQSuspensionVC.m */; };
 		B767CCB81D2F4A4B000306D0 /* IYQSuspensionBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = B767CCB71D2F4A4B000306D0 /* IYQSuspensionBtnView.m */; };
+		B77DD7E11DEEBFF100D58E75 /* IYQDynamicDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD7E01DEEBFF100D58E75 /* IYQDynamicDemoVC.m */; };
+		B77DD7E41DEEC2BE00D58E75 /* IYQDynamicBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD7E31DEEC2BE00D58E75 /* IYQDynamicBaseView.m */; };
+		B77DD7E71DEECFC300D58E75 /* IYQSnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD7E61DEECFC300D58E75 /* IYQSnapView.m */; };
+		B77DD7EA1DEED1D600D58E75 /* IYQPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD7E91DEED1D600D58E75 /* IYQPushView.m */; };
+		B77DD7ED1DEEE1E700D58E75 /* IYQAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD7EC1DEEE1E700D58E75 /* IYQAttachmentView.m */; };
+		B77DD7F01DEFBBD200D58E75 /* IYQSpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD7EF1DEFBBD200D58E75 /* IYQSpringView.m */; };
+		B77DD7F31DEFBFD300D58E75 /* IYQCollisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD7F21DEFBFD300D58E75 /* IYQCollisionView.m */; };
 		B77E029C1D41BC4F005C3DB3 /* IYQPraiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77E029B1D41BC4F005C3DB3 /* IYQPraiseViewController.m */; };
 		B77E02A01D41C796005C3DB3 /* IYQPraiseBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B77E029F1D41C796005C3DB3 /* IYQPraiseBtn.m */; };
 		B7803F3E1D4216BA0079F02A /* IYQLoadAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F3D1D4216BA0079F02A /* IYQLoadAnimationVC.m */; };
 		B7803F411D4226370079F02A /* IYQLoadViewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F401D4226370079F02A /* IYQLoadViewOne.m */; };
 		B7803F451D4229880079F02A /* IYQTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7803F441D4229880079F02A /* IYQTransitionVC.m */; };
+		B784DBBB1DE686CA00966F1A /* 1255547-6e54bd07f500e88d.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B784DBBA1DE686CA00966F1A /* 1255547-6e54bd07f500e88d.jpeg */; };
+		B784DBBD1DE68A2400966F1A /* 1255547-99c1c61130607358.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B784DBBC1DE68A2400966F1A /* 1255547-99c1c61130607358.jpeg */; };
+		B784DBBF1DE68A2800966F1A /* 1255547-2b7dbc9b577e6d57.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B784DBBE1DE68A2800966F1A /* 1255547-2b7dbc9b577e6d57.jpeg */; };
 		B7C319A21D62A5DB00EAAB4E /* IYQRectangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C319A11D62A5DB00EAAB4E /* IYQRectangleLayer.m */; };
 		B7C319A51D62ACCE00EAAB4E /* IYQWaterwaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C319A41D62ACCE00EAAB4E /* IYQWaterwaveLayer.m */; };
 		B7C475991D6BE061001EF150 /* IYQSandClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C475981D6BE061001EF150 /* IYQSandClockView.m */; };
@@ -70,6 +83,10 @@
 		B710ABCA1DD5AABD00E22B1D /* IYQCollapseSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQCollapseSecondVC.m; sourceTree = "<group>"; };
 		B710ABCD1DD5B8D700E22B1D /* IYQFireworksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQFireworksViewController.h; sourceTree = "<group>"; };
 		B710ABCE1DD5B8D700E22B1D /* IYQFireworksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQFireworksViewController.m; sourceTree = "<group>"; };
+		B71108461DE5825600D110B7 /* IYQMaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQMaskVC.h; sourceTree = "<group>"; };
+		B71108471DE5825600D110B7 /* IYQMaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQMaskVC.m; sourceTree = "<group>"; };
+		B711084A1DE6766700D110B7 /* IYQBezierPathVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQBezierPathVC.h; sourceTree = "<group>"; };
+		B711084B1DE6766700D110B7 /* IYQBezierPathVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQBezierPathVC.m; sourceTree = "<group>"; };
 		B71558911DD4048C00014DB5 /* IYQMainCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQMainCollectionCell.h; sourceTree = "<group>"; };
 		B71558921DD4048C00014DB5 /* IYQMainCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQMainCollectionCell.m; sourceTree = "<group>"; };
 		B71558931DD4048C00014DB5 /* IYQMainCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IYQMainCollectionCell.xib; sourceTree = "<group>"; };
@@ -118,6 +135,8 @@
 		B75120451D5DA99B00D9EA15 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		B75120471D5DB59100D9EA15 /* IYQTriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQTriangleLayer.h; sourceTree = "<group>"; };
 		B75120481D5DB59100D9EA15 /* IYQTriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQTriangleLayer.m; sourceTree = "<group>"; };
+		B75A3E9B1DE8286200B9CD2E /* IYQUIDynamicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQUIDynamicVC.h; sourceTree = "<group>"; };
+		B75A3E9C1DE8286200B9CD2E /* IYQUIDynamicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQUIDynamicVC.m; sourceTree = "<group>"; };
 		B76567771D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQFotoMosaikEddaVC.h; sourceTree = "<group>"; };
 		B76567781D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQFotoMosaikEddaVC.m; sourceTree = "<group>"; };
 		B767CC951D2DFF1B000306D0 /* SummaryAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummaryAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +153,20 @@
 		B767CCB31D2F40C3000306D0 /* IYQSuspensionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSuspensionVC.m; sourceTree = "<group>"; };
 		B767CCB61D2F4A4B000306D0 /* IYQSuspensionBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQSuspensionBtnView.h; sourceTree = "<group>"; };
 		B767CCB71D2F4A4B000306D0 /* IYQSuspensionBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSuspensionBtnView.m; sourceTree = "<group>"; };
+		B77DD7DF1DEEBFF100D58E75 /* IYQDynamicDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQDynamicDemoVC.h; sourceTree = "<group>"; };
+		B77DD7E01DEEBFF100D58E75 /* IYQDynamicDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQDynamicDemoVC.m; sourceTree = "<group>"; };
+		B77DD7E21DEEC2BE00D58E75 /* IYQDynamicBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQDynamicBaseView.h; sourceTree = "<group>"; };
+		B77DD7E31DEEC2BE00D58E75 /* IYQDynamicBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQDynamicBaseView.m; sourceTree = "<group>"; };
+		B77DD7E51DEECFC300D58E75 /* IYQSnapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQSnapView.h; sourceTree = "<group>"; };
+		B77DD7E61DEECFC300D58E75 /* IYQSnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSnapView.m; sourceTree = "<group>"; };
+		B77DD7E81DEED1D600D58E75 /* IYQPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQPushView.h; sourceTree = "<group>"; };
+		B77DD7E91DEED1D600D58E75 /* IYQPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQPushView.m; sourceTree = "<group>"; };
+		B77DD7EB1DEEE1E700D58E75 /* IYQAttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQAttachmentView.h; sourceTree = "<group>"; };
+		B77DD7EC1DEEE1E700D58E75 /* IYQAttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQAttachmentView.m; sourceTree = "<group>"; };
+		B77DD7EE1DEFBBD200D58E75 /* IYQSpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQSpringView.h; sourceTree = "<group>"; };
+		B77DD7EF1DEFBBD200D58E75 /* IYQSpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSpringView.m; sourceTree = "<group>"; };
+		B77DD7F11DEFBFD300D58E75 /* IYQCollisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQCollisionView.h; sourceTree = "<group>"; };
+		B77DD7F21DEFBFD300D58E75 /* IYQCollisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQCollisionView.m; sourceTree = "<group>"; };
 		B77E029A1D41BC4F005C3DB3 /* IYQPraiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQPraiseViewController.h; sourceTree = "<group>"; };
 		B77E029B1D41BC4F005C3DB3 /* IYQPraiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQPraiseViewController.m; sourceTree = "<group>"; };
 		B77E029E1D41C796005C3DB3 /* IYQPraiseBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQPraiseBtn.h; sourceTree = "<group>"; };
@@ -144,6 +177,9 @@
 		B7803F401D4226370079F02A /* IYQLoadViewOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQLoadViewOne.m; sourceTree = "<group>"; };
 		B7803F431D4229880079F02A /* IYQTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQTransitionVC.h; sourceTree = "<group>"; };
 		B7803F441D4229880079F02A /* IYQTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQTransitionVC.m; sourceTree = "<group>"; };
+		B784DBBA1DE686CA00966F1A /* 1255547-6e54bd07f500e88d.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1255547-6e54bd07f500e88d.jpeg"; sourceTree = "<group>"; };
+		B784DBBC1DE68A2400966F1A /* 1255547-99c1c61130607358.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1255547-99c1c61130607358.jpeg"; sourceTree = "<group>"; };
+		B784DBBE1DE68A2800966F1A /* 1255547-2b7dbc9b577e6d57.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1255547-2b7dbc9b577e6d57.jpeg"; sourceTree = "<group>"; };
 		B7C319A01D62A5DB00EAAB4E /* IYQRectangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQRectangleLayer.h; sourceTree = "<group>"; };
 		B7C319A11D62A5DB00EAAB4E /* IYQRectangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQRectangleLayer.m; sourceTree = "<group>"; };
 		B7C319A31D62ACCE00EAAB4E /* IYQWaterwaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQWaterwaveLayer.h; sourceTree = "<group>"; };
@@ -170,6 +206,27 @@
 				B710ABCE1DD5B8D700E22B1D /* IYQFireworksViewController.m */,
 			);
 			name = "烟花";
+			sourceTree = "<group>";
+		};
+		B71108451DE5821A00D110B7 /* Mask小玩法 */ = {
+			isa = PBXGroup;
+			children = (
+				B71108461DE5825600D110B7 /* IYQMaskVC.h */,
+				B71108471DE5825600D110B7 /* IYQMaskVC.m */,
+			);
+			name = "Mask小玩法";
+			sourceTree = "<group>";
+		};
+		B71108491DE6762200D110B7 /* 贝塞尔曲线精讲 */ = {
+			isa = PBXGroup;
+			children = (
+				B784DBBE1DE68A2800966F1A /* 1255547-2b7dbc9b577e6d57.jpeg */,
+				B784DBBC1DE68A2400966F1A /* 1255547-99c1c61130607358.jpeg */,
+				B784DBBA1DE686CA00966F1A /* 1255547-6e54bd07f500e88d.jpeg */,
+				B711084A1DE6766700D110B7 /* IYQBezierPathVC.h */,
+				B711084B1DE6766700D110B7 /* IYQBezierPathVC.m */,
+			);
+			name = "贝塞尔曲线精讲";
 			sourceTree = "<group>";
 		};
 		B71558991DD4111500014DB5 /* photos */ = {
@@ -276,6 +333,29 @@
 			name = LauchLayer;
 			sourceTree = "<group>";
 		};
+		B75A3E9A1DE8282000B9CD2E /* UIDynamic重力行为 */ = {
+			isa = PBXGroup;
+			children = (
+				B75A3E9B1DE8286200B9CD2E /* IYQUIDynamicVC.h */,
+				B75A3E9C1DE8286200B9CD2E /* IYQUIDynamicVC.m */,
+				B77DD7DF1DEEBFF100D58E75 /* IYQDynamicDemoVC.h */,
+				B77DD7E01DEEBFF100D58E75 /* IYQDynamicDemoVC.m */,
+				B77DD7E21DEEC2BE00D58E75 /* IYQDynamicBaseView.h */,
+				B77DD7E31DEEC2BE00D58E75 /* IYQDynamicBaseView.m */,
+				B77DD7E51DEECFC300D58E75 /* IYQSnapView.h */,
+				B77DD7E61DEECFC300D58E75 /* IYQSnapView.m */,
+				B77DD7E81DEED1D600D58E75 /* IYQPushView.h */,
+				B77DD7E91DEED1D600D58E75 /* IYQPushView.m */,
+				B77DD7EB1DEEE1E700D58E75 /* IYQAttachmentView.h */,
+				B77DD7EC1DEEE1E700D58E75 /* IYQAttachmentView.m */,
+				B77DD7EE1DEFBBD200D58E75 /* IYQSpringView.h */,
+				B77DD7EF1DEFBBD200D58E75 /* IYQSpringView.m */,
+				B77DD7F11DEFBFD300D58E75 /* IYQCollisionView.h */,
+				B77DD7F21DEFBFD300D58E75 /* IYQCollisionView.m */,
+			);
+			name = "UIDynamic重力行为";
+			sourceTree = "<group>";
+		};
 		B76567761D640F1500CDC2EA /* 图片拼接 */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +385,9 @@
 		B767CC971D2DFF1B000306D0 /* SummaryAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B75A3E9A1DE8282000B9CD2E /* UIDynamic重力行为 */,
+				B71108491DE6762200D110B7 /* 贝塞尔曲线精讲 */,
+				B71108451DE5821A00D110B7 /* Mask小玩法 */,
 				B710ABCC1DD5B8BA00E22B1D /* 烟花 */,
 				B71558CB1DD564C300014DB5 /* 碎片过渡 */,
 				B76567761D640F1500CDC2EA /* 图片拼接 */,
@@ -458,8 +541,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B784DBBD1DE68A2400966F1A /* 1255547-99c1c61130607358.jpeg in Resources */,
+				B784DBBB1DE686CA00966F1A /* 1255547-6e54bd07f500e88d.jpeg in Resources */,
 				B71558C01DD4111500014DB5 /* 8.jpg in Resources */,
 				B71558C11DD4111500014DB5 /* 9.jpg in Resources */,
+				B784DBBF1DE68A2800966F1A /* 1255547-2b7dbc9b577e6d57.jpeg in Resources */,
 				B71558B71DD4111500014DB5 /* 18.jpg in Resources */,
 				B71558B31DD4111500014DB5 /* 14.jpg in Resources */,
 				B71558AF1DD4111500014DB5 /* 10.jpg in Resources */,
@@ -491,10 +577,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77DD7ED1DEEE1E700D58E75 /* IYQAttachmentView.m in Sources */,
+				B77DD7E71DEECFC300D58E75 /* IYQSnapView.m in Sources */,
 				B75120431D5DA6D500D9EA15 /* IYQCircleLayer.m in Sources */,
+				B77DD7EA1DEED1D600D58E75 /* IYQPushView.m in Sources */,
 				B767CCB81D2F4A4B000306D0 /* IYQSuspensionBtnView.m in Sources */,
 				B751202E1D5C2A1500D9EA15 /* IYQRadarViewController.m in Sources */,
 				B767CCB41D2F40C3000306D0 /* IYQSuspensionVC.m in Sources */,
+				B75A3E9D1DE8286200B9CD2E /* IYQUIDynamicVC.m in Sources */,
 				B71558C41DD428C700014DB5 /* IYQMainModel.m in Sources */,
 				B73A47F61D55DC1600DDAB31 /* UIBezierPath+YQWriteBezier.m in Sources */,
 				B7803F451D4229880079F02A /* IYQTransitionVC.m in Sources */,
@@ -511,17 +601,23 @@
 				B767CCA01D2DFF1B000306D0 /* IYQMainViewController.m in Sources */,
 				B75120401D5DA6A800D9EA15 /* IYQAnimationView.m in Sources */,
 				B71558941DD4048C00014DB5 /* IYQMainCollectionCell.m in Sources */,
+				B77DD7E41DEEC2BE00D58E75 /* IYQDynamicBaseView.m in Sources */,
+				B77DD7E11DEEBFF100D58E75 /* IYQDynamicDemoVC.m in Sources */,
 				B75120461D5DA99B00D9EA15 /* UIColor+Hex.m in Sources */,
+				B77DD7F01DEFBBD200D58E75 /* IYQSpringView.m in Sources */,
 				B77E02A01D41C796005C3DB3 /* IYQPraiseBtn.m in Sources */,
 				B710ABCB1DD5AABD00E22B1D /* IYQCollapseSecondVC.m in Sources */,
 				B76567791D640F9D00CDC2EA /* IYQFotoMosaikEddaVC.m in Sources */,
 				B71558C71DD44B0300014DB5 /* IYQBaseViewController.m in Sources */,
 				B7C475991D6BE061001EF150 /* IYQSandClockView.m in Sources */,
+				B711084C1DE6766700D110B7 /* IYQBezierPathVC.m in Sources */,
 				B767CC9D1D2DFF1B000306D0 /* AppDelegate.m in Sources */,
 				B767CCB11D2E07F5000306D0 /* IYQBaseAnimationVC.m in Sources */,
 				B7C319A21D62A5DB00EAAB4E /* IYQRectangleLayer.m in Sources */,
 				B767CC9A1D2DFF1B000306D0 /* main.m in Sources */,
+				B71108481DE5825600D110B7 /* IYQMaskVC.m in Sources */,
 				B75120491D5DB59100D9EA15 /* IYQTriangleLayer.m in Sources */,
+				B77DD7F31DEFBFD300D58E75 /* IYQCollisionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,11 +710,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: she zhideng (CRFREY3P5P)";
 				INFOPLIST_FILE = SummaryAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyouqiang.SummaryAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e0304ed1-6386-4d26-96b0-6aff9c0ff12e";
 			};
 			name = Debug;
 		};
@@ -626,11 +724,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: she zhideng (CRFREY3P5P)";
 				INFOPLIST_FILE = SummaryAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyouqiang.SummaryAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e0304ed1-6386-4d26-96b0-6aff9c0ff12e";
 			};
 			name = Release;
 		};

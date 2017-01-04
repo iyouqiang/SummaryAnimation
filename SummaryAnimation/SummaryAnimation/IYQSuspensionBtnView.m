@@ -223,6 +223,7 @@ static int count = 0;
             _subBtnendPoint   = CGPointMake(self.center.x , self.center.y - 20.0f - self.frame.size.height/2.0f - (_kImgWidth + 10) * idnex);
         }
             break;
+
         case left_suspension:
         {
             _subBtnstartPoint = self.center;
@@ -362,7 +363,6 @@ static int count = 0;
         }
         
         //添加吸附物理行为
-        
         UIAttachmentBehavior *attachmentBehavior = [[UIAttachmentBehavior alloc] initWithItem:self attachedToAnchor:minPoint];
         
         [attachmentBehavior setLength:0];

@@ -110,7 +110,6 @@
     [UIView animateWithDuration:0.4 delay:0.0 usingSpringWithDamping:0.7 initialSpringVelocity:0.1 options:UIViewAnimationOptionCurveEaseInOut animations:^{
 
         label.transform = CGAffineTransformScale(label.transform, 4.0, 4.0);
-
     } completion:^(BOOL finished) {
 
         ///给非UIControl的子类，增加点击事件

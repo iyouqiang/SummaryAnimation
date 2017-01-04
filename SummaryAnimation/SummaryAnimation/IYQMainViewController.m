@@ -48,7 +48,10 @@
                     @"IYQRadarViewController",
                     @"IYQFotoMosaikEddaVC",
                     @"IYQFragmentViewController",
-                    @"IYQFireworksViewController"] mutableCopy];
+                    @"IYQFireworksViewController",
+                    @"IYQMaskVC",
+                    @"IYQBezierPathVC",
+                    @"IYQUIDynamicVC"] mutableCopy];
 
     _titleName = [@[@"基础动画",
                     @"悬浮按钮",
@@ -59,7 +62,10 @@
                     @"雷达波纹",
                     @"图片拼接",
                     @"碎片过渡动画",
-                    @"烟花"] mutableCopy];
+                    @"烟花",      
+                    @"mask小玩法",
+                    @"贝塞尔曲线精讲",
+                    @"UIDynamic力行为"] mutableCopy];
 
     // 图片
     _imgArray = [[NSMutableArray alloc]init];
