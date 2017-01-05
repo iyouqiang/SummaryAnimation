@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IYQBaseViewController : UIViewController
+@interface IYQBaseViewController : UIViewController<CAAnimationDelegate>
 
 @end

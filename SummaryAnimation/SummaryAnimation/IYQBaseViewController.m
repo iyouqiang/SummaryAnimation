@@ -156,7 +156,7 @@
         [IYQMainModel shareIYQMainModelManager].showimgView.frame = CGRectMake(dx, 0, 110, 110);
     }];
 
-    AppDelegate *appdele = [UIApplication sharedApplication].delegate;
+    AppDelegate *appdele = (AppDelegate *)[UIApplication sharedApplication].delegate;
     [appdele.window addSubview: [IYQMainModel shareIYQMainModelManager].showimgView];
 }
 
